@@ -25,6 +25,12 @@ public class GameView extends LinearLayout {
 		initGameView();
 	}
 
+	public GameView(Context context, AttributeSet attr) {
+		// TODO Auto-generated method stub
+		super(context, attr);
+		initGameView();
+	}
+
 	private void initGameView() { // 游戏布局初始化方法
 		// TODO Auto-generated method stub
 		setOrientation(LinearLayout.VERTICAL); // 以vertical
